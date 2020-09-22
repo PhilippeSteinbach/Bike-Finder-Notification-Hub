@@ -1,0 +1,18 @@
+<h2 id="notification-hub">Notification Hub</h2>
+<p>This is the Notification Hub for the Bike-Finder PWA. It enables sending notitications from the CMS to Frontend users in realtime. Don't forget to create a squidex rule (see Backend CMS folder).</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<h3 id="install-docker-desktop">Install Docker Desktop</h3>
+<p>Refer <a href="https://www.docker.com/products/docker-desktop"><a href="https://www.docker.com/products/docker-desktop">https://www.docker.com/products/docker-desktop</a></a> to install Docker Desktop</p>
+<h3 id="install-visual-studio-2019">Install Visual Studio 2019</h3>
+<p>Refer <a href="https://visualstudio.microsoft.com/downloads/"><a href="https://visualstudio.microsoft.com/downloads/">https://visualstudio.microsoft.com/downloads/</a></a> to install Visual Studio 2019</p>
+<p>Install ASP.NET &amp; Webdevelopment Package when installing Visual Studio</p>
+<h3 id="install-.net-core-3.1-sdk">Install .NET Core 3.1 SDK</h3>
+<p>Refer <a href="https://dotnet.microsoft.com/download/dotnet-core/3.1"><a href="https://dotnet.microsoft.com/download/dotnet-core/3.1">https://dotnet.microsoft.com/download/dotnet-core/3.1</a></a> to install the latest .NET Core 3.1 SDK</p>
+<h2 id="cloning-and-running-the-application">Cloning and Running the Application</h2>
+<p>Go into the project Folder and install the packages using the following command</p>
+<pre><code>dotnet restore</code></pre>
+<p>Open Docker Desktop</p>
+<p>Open the NotificationHub.sln within Visual Studio</p>
+<p>Instead of IIS Express, choose Docker Run Configuration in the top and press <strong>Ctrl + F5</strong></p>
+<p>The application runs on <a href="http://localhost:51439">localhost:51439</a></p>
+<p>To test if the application runs properly, check <a href="http://localhost:51439/api/Notification/Test"><a href="http://localhost:51439/api/Notification/Test">http://localhost:51439/api/Notification/Test</a></a></p>
